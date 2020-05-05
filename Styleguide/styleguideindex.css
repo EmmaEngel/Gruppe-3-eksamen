@@ -1,0 +1,64 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: mr-eaves-modern, sans-serif;
+}
+
+.main {
+    margin-left: 160px;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+#tekst {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+/* navigation*/
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    background-color: #515864;
+    padding-top: 40px;
+}
+
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: #a2a7a5;
+}
+
+
+/* linje*/
+
+hr {
+    height: 6px;
+    background: #f15a22;
+    margin-bottom: 2%;
+}
+
+
+/*responsive*/
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
