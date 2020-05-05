@@ -13,6 +13,15 @@
     padding: 0px 10px;
 }
 
+
+/* linje*/
+
+hr {
+    height: 6px;
+    background: #f15a22;
+    margin-bottom: 2%;
+}
+
 #tekst {
     font-size: 20px;
     text-align: center;
@@ -43,12 +52,18 @@
 }
 
 
-/* linje*/
+/*Typografi siden*/
 
-hr {
-    height: 6px;
-    background: #f15a22;
-    margin-bottom: 2%;
+#tekst1 {
+    text-align: center;
+}
+
+#tekst2 {
+    text-align: center;
+}
+
+#tekst3 {
+    text-align: center;
 }
 
 
