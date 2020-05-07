@@ -52,18 +52,82 @@ hr {
 }
 
 
+/*Farveskema siden*/
+
+.styleGuideGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.styleGuideGridItem {
+    margin-top: 2%;
+}
+
+.farveGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.farveText {
+    margin: auto;
+}
+
+.farve1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 13px;
+    background: #F15A22;
+}
+
+.farve2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 13px;
+    background: #111724;
+}
+
+.farve3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 13px;
+    background: #222B3B;
+}
+
+.farve4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 13px;
+    background: #515864;
+}
+
+.farve5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+
 /*Typografi siden*/
 
 #tekst1 {
     text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
 }
 
 #tekst2 {
     text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
 }
 
 #tekst3 {
     text-align: center;
+    font-size: 12px;
 }
 
 
