@@ -134,14 +134,13 @@ hr {
 
 .simplebuttonbox{
     text-align: center;
+    padding-top: 50px;
 }
 
 .simplebutton{
     left: 50%;
     font-size: 20px;
     color: #f15a44;
-    padding-top: 50px;
-    text-decoration: underline;
 }
 
 .buttonbox{
