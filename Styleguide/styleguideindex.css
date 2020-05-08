@@ -130,6 +130,45 @@ hr {
     font-size: 12px;
 }
 
+/*Knapside*/
+
+.buttoncontainer{
+    text-align: center;
+}
+
+.button1{
+    left: 50%;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.buttontext{
+    padding-top: 28%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.hex1{
+    float: left;
+    border-right: 30px solid #f15a22;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
+.hex2{
+    float: left;
+    width: 90px;
+    height: 80px;
+    background-color: #f15a22;
+}
+
+.hex3{
+    float: left;
+    border-left: 30px solid #f15a22;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
 
 /*responsive*/
 
