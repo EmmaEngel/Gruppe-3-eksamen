@@ -132,14 +132,25 @@ hr {
 
 /*Knapside*/
 
-.buttoncontainer{
+.simplebuttonbox{
+    text-align: center;
+}
+
+.simplebutton{
+    left: 50%;
+    font-size: 20px;
+    color: #f15a44;
+    padding-top: 50px;
+}
+
+.buttonbox{
     text-align: center;
     display: block;
     padding: 50px;
 }
 
 
-.buttoncontainer2{
+.buttonbox3{
     display: block;
     text-align: center;
 }
