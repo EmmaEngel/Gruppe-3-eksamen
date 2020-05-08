@@ -134,12 +134,35 @@ hr {
 
 .buttoncontainer{
     text-align: center;
+    display: block;
+    padding: 50px;
+}
+
+.buttoncontainer2{
+    text-align: center;
 }
 
 .button1{
+    position: absolute;
     left: 50%;
     display: inline-block;
     padding-top: 40px;
+}
+
+.innerbutton{
+    z-index: 1;
+    left: 36.64%;
+    float: left;
+    padding-top: 93px;
+    position: relative;
+    
+}
+
+.innerbuttontext{
+    padding-top: 24%;
+    color: #f15a44;
+    font-size: 20px;
+    
 }
 
 .buttontext{
@@ -169,6 +192,26 @@ hr {
     border-bottom: 40px solid transparent;
 }
 
+.innerhex1{
+    float: left;
+    border-right: 28px solid #fff;
+    border-top: 37px solid transparent;
+    border-bottom: 37px solid transparent;
+}
+
+.innerhex2{
+    float: left;
+    width: 85px;
+    height: 74px;
+    background-color: #ffff;
+}
+
+.innerhex3{
+    float: left;
+    border-left: 28px solid #fff;
+    border-top: 37px solid transparent;
+    border-bottom: 37px solid transparent;
+}
 
 /*responsive*/
 
