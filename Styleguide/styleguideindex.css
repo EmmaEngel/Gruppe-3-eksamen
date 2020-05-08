@@ -136,9 +136,12 @@ hr {
     text-align: center;
     display: block;
     padding: 50px;
+    cursor: pointer;
 }
 
+
 .buttoncontainer2{
+    display: block;
     text-align: center;
 }
 
@@ -150,12 +153,12 @@ hr {
 }
 
 .innerbutton{
+    float:left;
     z-index: 1;
-    left: 36.64%;
-    float: left;
     padding-top: 93px;
+    margin-left: -75px;
+    left: 50%;
     position: relative;
-    
 }
 
 .innerbuttontext{
