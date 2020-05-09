@@ -157,10 +157,10 @@ hr {
 	height:27px;
     z-index: -1;
 }
-.orange{ color: orange; }
+.orange{ color: #f14a22; }
 /* Button Border Style */
 .orange:before,.orange:after {
-	border: 3px solid orange;
+	border: 3px solid #f14a22;
 }
 
 .button:before{
@@ -179,7 +179,7 @@ hr {
 
 /* Button Hover Style */
 .orange:hover:before, .orange:hover:after {
-	   background: orange;
+	   background: #f14a22;
 }
 .button:hover{
 	   color:#fff;
