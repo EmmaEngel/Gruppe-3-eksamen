@@ -140,15 +140,17 @@ hr {
 }
 
 .knap{
+    
+    
 }
 
 .knapmidt{
-    width: 80px;
+    width: 100px;
     float: left;
-    object-fit: cover;
     position: relative;
     text-align: center;
     color: #00f;
+    
 }
 
 .knaptekst{
@@ -165,7 +167,10 @@ hr {
 
 img{
     height: 80px;
-    float: left;
+    float: left
+}
+.midt{
+    object-fit: cover;
 }
 
 /*gammelt*/
