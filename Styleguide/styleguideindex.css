@@ -118,6 +118,7 @@ font-family: rubik, sans-serif;
 }
 
 #tekst1 {
+    font-family: rubik, sans-serif;
     text-align: center;
     margin-bottom: 30px;
     font-size: 16px;}
@@ -126,7 +127,6 @@ font-family: rubik, sans-serif;
         text-align: center;
         }
 #tekst2 {
-    font-family: titillium-web, sans-serif;
     text-align: center;
     margin-bottom: 30px;
     font-size: 14px;
@@ -134,10 +134,11 @@ font-family: rubik, sans-serif;
 
 #tekstheading3{
     text-align: center;
+    font-weight: 300;
     }
 #tekst3 {
-    font-family: titillium-web, sans-serif;
     text-align: center;
+    font-weight: 300;
     font-size: 12px;
     margin-bottom: 30px;
 }
