@@ -24,10 +24,12 @@
 }
 
 #buttoninhold{ /* billede i knappen*/
-    width: 100px;
+    width: 100%;
     text-align: center;
 }
-
+.buttonimg{
+    width:100%;
+}
 .hex1{ /* venstre trekant*/
     float: left;
     border-right: 40px solid #f15a22;
