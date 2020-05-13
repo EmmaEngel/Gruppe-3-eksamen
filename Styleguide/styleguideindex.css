@@ -148,7 +148,7 @@ font-family: rubik, sans-serif;
 
 
 
-/* knap fra nettet */
+/* knap fra nettet (oeverste) */
 
 
 .button{
@@ -198,72 +198,7 @@ font-family: rubik, sans-serif;
 	   color:#fff;
 }
 
-
-
-
-
-
-
-
-/*Knapside*/
-
-.knapholder{
-    padding-left: 50%;
-    margin: -75px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.knap{
-    cursor: pointer;
-    
-}
-
-.knapmidt{
-    float: left;
-    position: relative;
-    text-align: center;
-}
-
-.knaptekst{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 15px;
-    color: #fff;
-
-}
-.knaptekst2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 15px;
-    color: #f14a22
-
-}
-
-.side{
-    height: 80px;
-    float: left;
-}
-.midt{
-    height: 80px;
-    width: 100px;
-    float: left;
-    object-fit:cover;
-}
-
-
-
-
-
-
-
-
-
-/*gammelt*/
+/*link knap*/
 .simplebuttonbox{
     text-align: center;
     padding-top: 50px;
@@ -275,86 +210,45 @@ font-family: rubik, sans-serif;
     color: #f15a44;
 }
 
-.buttonbox{
+/*"knap2" (nederste)*/
+
+.buttonbox{ /*container der holder button 1*/
     text-align: center;
     display: block;
     padding: 50px;
 }
 
-
-.buttonbox3{
-    display: block;
-    text-align: center;
-}
-
-.button1{
+.button1{ /* container der holder knapelementer*/
     position: absolute;
     left: 50%;
     padding-top: 40px;
 }
 
-.innerbutton{
-    float:left;
-    z-index: 1;
-    padding-top: 93px;
-    margin-left: -75px;
-    left: 50%;
-    position: relative;
-}
-
-.innerbuttontext{
-    padding-top: 26%;
-    color: #f15a44;
-    font-size: 20px;
-    
-}
-
-.buttontext{
+.buttontext{ /* tekst i knappen*/
     padding-top: 28%;
     color: #fff;
     font-size: 20px;
 }
 
-.hex1{
+.hex1{ /* venstre trekant*/
     float: left;
     border-right: 30px solid #f15a22;
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
 }
 
-.hex2{
+.hex2{ /*firkant i midten*/
     float: left;
     width: 90px;
     height: 80px;
     background-color: #f15a22;
 }
 
-.hex3{
+.hex3{ /*hoejre trekant*/
     float: left;
     border-left: 30px solid #f15a22;
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
-}
-
-.innerhex1{
-    float: left;
-    border-right: 28px solid #fff;
-    border-top: 37px solid transparent;
-    border-bottom: 37px solid transparent;
-}
-
-.innerhex2{
-    float: left;
-    width: 85px;
-    height: 74px;
-    background-color: #ffff;
-}
-
-.innerhex3{
-    float: left;
-    border-left: 28px solid #fff;
-    border-top: 37px solid transparent;
-    border-bottom: 37px solid transparent;
 }
 
 /*responsive*/
