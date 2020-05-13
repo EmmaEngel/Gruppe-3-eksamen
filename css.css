@@ -1,0 +1,38 @@
+
+
+/*---------MENU SIDEN----------*/
+.buttonbox{
+    text-align: center;
+    display: block;
+    padding: 50px;
+}
+
+.button1{
+    position: absolute;
+    left: 50%;
+    padding-top: 40px;
+}
+
+.hex1{
+    float: left;
+    border-right: 30px solid #f15a22;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
+.hex2{
+    float: left;
+    width: 90px;
+    height: 80px;
+    background-color: #f15a22;
+}
+.buttontext{
+  text-align: center;
+}
+
+.hex3{
+    float: left;
+    border-left: 30px solid #f15a22;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
