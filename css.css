@@ -23,8 +23,8 @@
     padding-top: 40px;
 }
 
-.buttoninhold{ /* billede i knappen*/
-    width: 20px;
+#buttoninhold{ /* billede i knappen*/
+    width: 100px;
     text-align: center;
 }
 
