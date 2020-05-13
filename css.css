@@ -1,0 +1,10 @@
+*{
+    margin: 0
+}
+
+/*Alt skal være i denne div (ipadsize)*/
+.ipadsize{
+    height: 1024px;
+    width: 768px;
+    background-color: #f00;
+}
