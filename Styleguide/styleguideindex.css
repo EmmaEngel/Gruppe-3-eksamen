@@ -170,10 +170,10 @@ font-family: rubik, sans-serif;
 	height:27px;
     z-index: -1;
 }
-.orange{ color: #f14a22; }
+.orange{ color: #515864; }
 /* Button Border Style */
 .orange:before,.orange:after {
-	border: 3px solid #f14a22;
+	border: 3px solid #515864;
 }
 
 .button:before{
@@ -192,7 +192,7 @@ font-family: rubik, sans-serif;
 
 /* Button Hover Style */
 .orange:hover:before, .orange:hover:after {
-	   background: #f14a22;
+	   background: #515864;
 }
 .button:hover{
 	   color:#fff;
@@ -225,7 +225,7 @@ font-family: rubik, sans-serif;
 }
 
 .buttontext{ /* tekst i knappen*/
-    padding-top: 28%;
+    padding-top: 12%;
     color: #fff;
     font-size: 20px;
 }

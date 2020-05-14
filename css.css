@@ -61,6 +61,7 @@
 
 .vcolumncontainer{
     display: flex;
+    font-family: sans-serif;
 }
 .vcolumn{
     flex: 33%;
@@ -116,6 +117,7 @@ input[type=number]::-webkit-outer-spin-button {
 ::placeholder {
   color: rgba(81,88,100,0.4);
 }
+
 
 .button{
     z-index: 1;
