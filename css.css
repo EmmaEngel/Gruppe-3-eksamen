@@ -61,6 +61,7 @@
 
 .vcolumncontainer{
     display: flex;
+    font-family: sans-serif;
 }
 .vcolumn{
     flex: 33%;
