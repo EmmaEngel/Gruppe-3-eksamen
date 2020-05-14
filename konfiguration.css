@@ -40,7 +40,7 @@
   }
     
   .modal-body {
-      padding: 2px 16px;
+      padding: 2px 50px;
     }
 
 #kasser{
@@ -167,7 +167,7 @@ font-size: 12px;
 }
 
 input {
-  width:110px;
+  width:100px;
   height:30px;
   padding:5px;
   box-sizing:border-box;
@@ -217,15 +217,15 @@ padding: 0px 0px 5px 60px;
 
 .venstredel{ /* venstre trekant*/
   float: left;
-  border-right: 15px solid #f15a22;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+  border-right: 10px solid #f15a22;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 }
 
 .midt{ /*firkant i midten*/
   float: left;
-  width: 45px;
-  height: 40px;
+  width: 17px;
+  height: 30px;
   background-color: #f15a22;
   display: flex;
   justify-content: center;
@@ -233,9 +233,9 @@ padding: 0px 0px 5px 60px;
 
 .højredel{ /*hoejre trekant*/
   float: left;
-  border-left: 15px solid #f15a22;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+  border-left: 10px solid #f15a22;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 }
 
 
