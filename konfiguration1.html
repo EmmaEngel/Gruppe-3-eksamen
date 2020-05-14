@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Robot Nordic</title>
+    <title>Konfiguration</title>
     <meta name="description" content="Robot Nordic">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="konfiguration.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hfb3jtf.css">
 </head>
 
 <body>
@@ -21,17 +22,17 @@
 
     <div class="modal-header">
       
-      <h2 class="modal-header-title">Konfiguration</h2>
+      <h2 class="modal-header-title">KONFIGURATION</h2>
       <div class="modal-header-actions">
         <div class="modal-cancel">
-          <a href="#" class="close-modal">Anuller</a>
+          <a href="#" class="close-modal" id="close-modal1">Annuller</a>
         </div>
           <div class="buttonbox">
             <div class="button1">
                 <div class="hex1"></div>
                 <div class="hex2">
                     <div class="buttontext">
-                    <a href="#" class="close-modal">Færdig</a>
+                    <a href="#" class="close-modal" id="close-modal2">Færdig</a>
                     </div>
                 </div>
                 <div class="hex3"></div>
@@ -39,6 +40,7 @@
         </div>
       </div>
     </div>
+    <!-- Input felter -->
     <div class="modal-body">
       <div class="input-row">
         <div class="input-container">
@@ -69,9 +71,16 @@
         </div>
       </div>
     </div>
-    
+
+    <section class="redigering">
+<p id="forhåndsvisning">
+Forhåndsvisning:
+</p>
+<a href="#" id="manuel" >Manuel Konfiguration</a>
+    </section>
+
     <div class="modal-billede">
-      <img id="kasser" src="images/kasser.svg" alt="Palle med kasser">
+      <img id="kasser" src="images/kasser2.svg" alt="Palle med kasser">
     </div>
 
   </div>
