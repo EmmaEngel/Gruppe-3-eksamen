@@ -1,5 +1,7 @@
+@charset "UTF-8";
 *{
     margin: 0;
+    font-family: titillium-web, sans-serif;
 }
 
 /*Alt skal være i denne div (ipadsize)*/
@@ -23,7 +25,7 @@
 
 .button1{ /* container der holder knapelementer*/
     position: absolute;
-    left: 75%;
+    left: 50%;
     padding-top: 40px;
 }
 
@@ -57,8 +59,7 @@
 }
 .undertekst{
 text-align: center;
-font-family: ;
-
+font-family: rubik, sans-serif;
 }
 /*_kontrolpanel-knap_*/
 .Ebuttonbox2{ /*container der holder button 1*/
@@ -69,7 +70,7 @@ font-family: ;
 
 .Ebutton2{ /* container der holder knapelementer*/
     position: absolute;
-    left: 75%;
+    left: 50%;
     padding-top: 50px;
 }
 
@@ -92,7 +93,7 @@ font-family: ;
 
 .Ebutton3{ /* container der holder knapelementer*/
     position: absolute;
-    left: 75%;
+    left: 50%;
     padding-top: 20px;
 }
 
