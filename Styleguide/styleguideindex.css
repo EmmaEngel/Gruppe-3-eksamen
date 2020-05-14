@@ -170,10 +170,10 @@ font-family: rubik, sans-serif;
 	height:27px;
     z-index: -1;
 }
-.orange{ color: #f14a22; }
+.orange{ color: #515864; }
 /* Button Border Style */
 .orange:before,.orange:after {
-	border: 3px solid #f14a22;
+	border: 3px solid #515864;
 }
 
 .button:before{

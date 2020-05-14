@@ -118,6 +118,7 @@ input[type=number]::-webkit-outer-spin-button {
   color: rgba(81,88,100,0.4);
 }
 
+
 .button{
     z-index: 1;
     position: relative;
