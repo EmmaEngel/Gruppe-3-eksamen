@@ -61,46 +61,46 @@ font-family: ;
 
 }
 /*_kontrolpanel-knap_*/
-.buttonbox2{ /*container der holder button 1*/
+.Ebuttonbox2{ /*container der holder button 1*/
     text-align: center;
     display: block;
     padding: 100px;
 }
 
-.button2{ /* container der holder knapelementer*/
+.Ebutton2{ /* container der holder knapelementer*/
     position: absolute;
     left: 75%;
     padding-top: 50px;
 }
 
-.buttoninhold2{ /* billede i knappen*/
+.Ebuttoninhold2{ /* billede i knappen*/
     width: 100%;
     text-align: center;
 }
-.buttonimg2{
+.Ebuttonimg2{
     width:80%;
     padding-top: 15%;
 }
 
 /*_service-knap_*/
 
-.buttonbox3{ /*container der holder button 1*/
+.Ebuttonbox3{ /*container der holder button 1*/
     text-align: center;
     display: block;
     padding: 100px;
 }
 
-.button3{ /* container der holder knapelementer*/
+.Ebutton3{ /* container der holder knapelementer*/
     position: absolute;
     left: 75%;
     padding-top: 20px;
 }
 
-.buttoninhold3{ /* billede i knappen*/
+.Ebuttoninhold3{ /* billede i knappen*/
     width: 100%;
     text-align: center;
 }
-.buttonimg3{
+.Ebuttonimg3{
     width:70%;
     padding-top: 8%;
 }
