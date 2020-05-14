@@ -1,106 +1,97 @@
 <!DOCTYPE html>
 <html lang="da">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Konfiguration</title>
-    <meta name="description" content="Robot Nordic">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="konfiguration.css">
-    <link rel="stylesheet" href="https://use.typekit.net/hfb3jtf.css">
-</head>
+    <meta name="description" content="Robot Nordic" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="konfiguration.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hfb3jtf.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
+    <button id="myBtn">Open Modal</button>
 
-<!-- The Modal -->
-<div id="Konfiguration1" class="modal">
+    <!-- The Modal -->
+    <div id="Konfiguration1" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-header-title">KONFIGURATION</h2>
+          <div class="modal-header-actions">
+            <div class="modal-cancel">
+              <a href="#" class="close-modal" id="close-modal1">Annuller</a>
+            </div>
 
-  <!-- Modal content -->
-  <div class="modal-content">
-
-    <div class="modal-header">
-      
-      <h2 class="modal-header-title">KONFIGURATION</h2>
-      <div class="modal-header-actions">
-        <div class="modal-cancel">
-          <a href="#" class="close-modal" id="close-modal1">Annuller</a>
-        </div>
-
-          <div class="buttonbox">
-            <div class="button1">
+            <div class="buttonbox">
+              <div class="button1">
                 <div class="hex1"></div>
                 <div class="hex2">
-                    <div class="buttontext">
+                  <div class="buttontext">
                     <a href="#" class="close-modal" id="close-modal2">Færdig</a>
-                    </div>
+                  </div>
                 </div>
                 <div class="hex3"></div>
+              </div>
             </div>
+          </div>
         </div>
 
-      </div>
-    </div>
-
-    <!-- Input felter -->
-    <div class="modal-body">
-      <div class="input-row">
-        <div class="input-container">
-          <p class="input-title">Højde</p>
-          <input type="text" >
+        <!-- Input felter -->
+        <div class="modal-body">
+          <div class="input-row">
+            <div class="input-container">
+              <p class="input-title">Højde</p>
+              <input type="text" />
+            </div>
+            <div class="input-container">
+              <p class="input-title">Bredde</p>
+              <input type="text" />
+            </div>
+            <div class="input-container">
+              <p class="input-title">Længde</p>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="input-row">
+            <div class="input-container">
+              <p class="input-title">Vægt</p>
+              <input type="text" />
+            </div>
+            <div class="input-container">
+              <p class="input-title">Materiale</p>
+              <input type="text" />
+            </div>
+            <div class="input-container">
+              <p class="input-title">Palle</p>
+              <input type="text" />
+            </div>
+          </div>
         </div>
-        <div class="input-container">
-          <p class="input-title">Bredde</p>
-          <input type="text" >
-        </div>
-        <div class="input-container">
-          <p class="input-title">Længde</p>
-          <input type="text" >
-        </div>
-      </div>
-      <div class="input-row">
-        <div class="input-container">
-          <p class="input-title">Vægt</p>
-          <input type="text" >
-        </div>
-        <div class="input-container">
-          <p class="input-title">Materiale</p>
-          <input type="text" >
-        </div>
-        <div class="input-container">
-          <p class="input-title">Palle</p>
-          <input type="text" >
-        </div>
-      </div>
-    </div>
-      <!-- Knap -->
-      <div class="Knap">
-        <div class="Knap1">
+        <!-- Knap -->
+        <div class="Knap">
+          <div class="Knap1">
             <div class="venstredel"></div>
             <div class="midt">
-                <div class="knaptext">
+              <div class="knaptext">
                 <a href="#" class="close-modal" id="close-modal2">...</a>
-                </div>
+              </div>
             </div>
             <div class="højredel"></div>
+          </div>
+        </div>
+        <section class="redigering">
+          <p id="forhåndsvisning">Forhåndsvisning:</p>
+          <a href="#" id="manuel">Manuel Konfiguration</a>
+        </section>
+
+        <div class="modal-billede">
+          <img id="kasser" src="images/kasser2.svg" alt="Palle med kasser" />
         </div>
       </div>
-    <section class="redigering">
-      <p id="forhåndsvisning">Forhåndsvisning:</p>
-        <a href="#" id="manuel" >Manuel Konfiguration</a>
-    </section>
-
-    <div class="modal-billede">
-      <img id="kasser" src="images/kasser2.svg" alt="Palle med kasser">
     </div>
 
-  </div>
-
-</div>
-    
     <script src="javascript/konfiguration.js"></script>
-
-</body>
-
+  </body>
 </html>
