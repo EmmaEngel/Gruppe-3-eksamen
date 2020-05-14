@@ -1,12 +1,15 @@
 *{
-    margin: 0
+    margin: 0;
 }
 
 /*Alt skal være i denne div (ipadsize)*/
 .ipadsize{
     height: 1024px;
     width: 768px;
-    background-color: #f00;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    
 }
 
 
@@ -28,7 +31,8 @@
     text-align: center;
 }
 .buttonimg{
-    width:100%;
+    width:80%;
+    padding-top: 15px;
 }
 .hex1{ /* venstre trekant*/
     float: left;
@@ -49,4 +53,101 @@
     border-left: 40px solid #f15a22;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
+}
+
+
+
+/*---------TEMPLATE SIDEN----------*/
+
+.vcolumncontainer{
+    display: flex;
+}
+.vcolumn{
+    flex: 33%;
+}
+
+.inputbox{
+    display: block;
+}
+
+.teksttknap{
+    padding: 30px 0 0 35px;
+    font-size: 20px;
+    color: #515864;
+    
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: #515864;
+    outline-width: 0;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: #515864;
+    outline-width: 0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+::placeholder {
+  color: rgba(81,88,100,0.4);
+}
+
+.button{
+    z-index: 1;
+    position: relative;
+	display:block;
+	background: transparent;
+	width:200px;
+	height:60px;
+	margin:20px auto;
+}
+.button:before, .button:after {
+	width:200px;
+    left: 0px;
+	height:27px;
+    z-index: -1;
+}
+.orange{ color: #515864; }
+/* Button Border Style */
+.orange:before,.orange:after {
+	border: 3px solid #515864;
+}
+
+.button:before{
+    position: absolute;
+    content: '';
+    border-bottom: none;
+    transform: perspective(15px) rotateX(5deg);  
+}
+.button:after{
+    position: absolute;
+    top: 32px;
+    content: '';
+    border-top: none;
+    transform: perspective(15px) rotateX(-5deg);
 }
