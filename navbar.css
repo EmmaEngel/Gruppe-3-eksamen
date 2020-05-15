@@ -14,11 +14,10 @@ ul{
   list-style-type: none;
 }
 .menu {
-  width: 40px;
-  height: 6px;
+  width: 50px;
+  height: 7px;
   background-color: white;
-  margin: 7px 0;
-
+  margin: 10px 0;
 }
 #Logo{
   float: left;
@@ -39,7 +38,7 @@ img{
   background-color: inherit;
   color: white;
   padding: 16px;
-  padding-top: 20px;
+  padding-top: 30px;
   border: none;
   cursor: pointer;
 }
@@ -56,11 +55,12 @@ img{
   display: none;
   position: absolute;
   background-color: #515864;
-  min-width: 160px;
+  min-width: 400px;
+  min-height: 500px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-top: 48px;
-  margin-left: -125px;
+  margin-top: 30px;
+  margin-left: -311px;
 }
 
 /* links i dropdown */
