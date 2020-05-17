@@ -19,14 +19,11 @@ ul{
   background-color: white;
   margin: 10px 0;
 }
-#Logo{
-  float: left;
-}
+
 img{
   height: auto;
   width: 45vw;
   float: left;
-  padding-right: 450px;
   padding-top: 5px;
 }
 .navbar{
@@ -39,6 +36,7 @@ img{
   color: white;
   padding: 16px;
   padding-top: 23px;
+  margin-left: 430px;
   border: none;
   cursor: pointer;
 }
@@ -60,12 +58,13 @@ img{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   margin-top: 30px;
-  margin-left: -311px;
+  margin-right: -27px;
+  right: 0;
 }
 
 /* links i dropdown */
 .dropdown-content a {
-  color: #fff;
+  color: #FFF;
   font-size: 40px;
   padding: 40px 30px;
   text-decoration: none;
@@ -78,6 +77,15 @@ img{
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-.visualisering{
+.Tandhjul{
+position: relative;
+font-size: 40px;
 margin-left: 400px;
+margin-top: 30px;
+}
+.knapper{
+position: relative;
+margin-left: 300px;
+margin-top: auto;
+font-size: 40px;
 }
