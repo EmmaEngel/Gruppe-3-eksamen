@@ -78,22 +78,29 @@ img{
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-.Tandhjul{
-position: relative;
-font-size: 40px;
-margin-left: 400px;
-margin-top: 30px;
+#tandhjul{
+  position: relative;
+  float: right;
+  margin-right: 100px;
+  margin-top: 30px;
+  width: 100px;
 }
 .knapper{
 position: relative;
-margin-left: 300px;
-margin-top: auto;
+margin-left: 200px;
+margin-top: 50px;
 font-size: 40px;
-}
-svg{
-  width: 7vw;
-      position: relative;
-      padding: 35px;
-      margin-left: 37px;
+padding-bottom: 100px;
 
+}
+#bruger{
+  width: 7vw;
+  position: relative;
+  padding: 35px;
+  margin-left: 37px;
+}
+#visualisering{
+  width: 50vw;
+  padding: 40px;
+  margin: 40px 0px 20px 125px;
 }
