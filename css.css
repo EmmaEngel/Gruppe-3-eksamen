@@ -110,8 +110,9 @@ font-family: rubik, sans-serif;
 }
 
 /*_ Popup vindue med "dagensopgave"_ */
+/* The Modal (background) */
 .Emodal {
-  /* display: none; /* Hidden by default */
+  display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 200px; /* Location of the box */
@@ -124,18 +125,18 @@ font-family: rubik, sans-serif;
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* popup indhold */
-.Emodalcontent {
+/* Modal Content */
+.Emodal-content {
   background-color: #515864;
   margin: auto;
-  padding: 20px;
-  border: none;
+  padding: 40px;
+  border: 1px solid #888;
   width: 20%;
   color: #FFFFFF;
   text-align: center;
 }
 
-/* lukke knappen */
+/* The Close Button */
 .Eclose {
   color: #FFFFFF;
   float: right;
@@ -143,20 +144,20 @@ font-family: rubik, sans-serif;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.Eclose:hover,
+.Eclose:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
 
-#EmyBtn {
+#EmyBtn{
+  background-image: url("image/brugerikon.svg");
   width: 5%;
-  margin-top: 30px;
   position: absolute;
   left: 50%;
   margin-left: -40px;
-}
+  padding-top: 20px;
 
 /*---------TEMPLATE SIDEN----------*/
 
@@ -219,14 +220,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 .styled-checkbox {
   position: absolute;
-  opacity: 0; 
+  opacity: 0;
 
   & + label {
     position: relative;
     cursor: pointer;
     padding: 0;
   }
-    
+
   & + label:before {
     content: '';
     margin-right: 10px;
@@ -237,24 +238,24 @@ input[type=number]::-webkit-outer-spin-button {
     background: white;
   }
 
-    
+
   &:checked + label:before {
     background: #f35429;
   }
-  
-    
+
+
   &:disabled + label {
     color: #b8b8b8;
     cursor: auto;
   }
 
-    
+
   &:disabled + label:before {
     box-shadow: none;
     background: #ddd;
   }
 
-  
+
   &:checked + label:after {
     content: '';
     position: absolute;
@@ -263,7 +264,7 @@ input[type=number]::-webkit-outer-spin-button {
     background: white;
     width: 2px;
     height: 2px;
-    box-shadow: 
+    box-shadow:
       2px 0 0 white,
       4px 0 0 white,
       4px -2px 0 white,
