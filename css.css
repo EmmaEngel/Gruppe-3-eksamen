@@ -277,7 +277,7 @@ input[type=checkbox]
 
 .chooseline{
     float: left;
-    margin: 0 15 0 10
+    margin: 0 25 0 15;
 }
 
 input[type=radio]
