@@ -1,3 +1,5 @@
+@media (min-width: 768px) {
+
 *{
     margin: 0;
     font-family: titillium-web, sans-serif;
@@ -44,6 +46,12 @@ ul{
   background-color: inherit;
 }
 
+.dropdown-content-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* Dropdown-menu (skjult) */
 .dropdown-content {
   display: none;
@@ -53,9 +61,6 @@ ul{
   min-height: 500px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-top: -2px;
-  margin-right: -148px;
-  right: 0;
 }
 
 /* links i dropdown */
@@ -106,4 +111,25 @@ padding-bottom: 100px;
 .w3-container{
   padding-left: 110px;
   padding-right: 110px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #515864;
+  width: 100%;
+}
+
+
+
+.dropbtn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropbtn-container button {
+  background-color: #515864;
+  border: none;
+}
 }

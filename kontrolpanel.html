@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="https://use.typekit.net/hfb3jtf.css">
   <title>Robot Nordic</title>
   <link rel="stylesheet" href="navbar.css">
-  <link rel="stylesheet" href="konfiguration.css" />
+  <link rel="stylesheet" href="konfiguration.css">
+  
 
 </head>
 <header>
@@ -16,26 +17,25 @@
 </header>
 
 <body>
-  <div class="navbar">
-    <div id="logo">
-      <img src="images/robotnordiclogo2.png" alt="Robot Nordic Logo">
-      <ul>
-        <li>
-          <div class="dropdown">
+  <nav>
+    <img src="https://robotnordic.dk/wp-content/uploads/2019/05/RN_logo_NEG@2x-400x95.png" alt="">
+    <div class="dropbtn-container">
+        <button onclick="myFunction()">
+          <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+        </button>
+    </div>
+    
+    <div>
 
-            <button onclick="myFunction()" class="dropbtn">
-              <div class="menu"></div>
-              <div class="menu"></div>
-              <div class="menu"></div>
-            </button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#">Template</a>
-              <a href="#">Status</a>
-              <a href="#">Service</a>
-            </div>
-          </div>
-        </li>
-      </ul>
+    </div>
+  </nav>
+  <div class="dropdown-content-container">
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">Template</a>
+      <a href="#">Status</a>
+      <a href="#">Service</a>
     </div>
   </div>
   <script src="javascript/navbar.js"></script>
