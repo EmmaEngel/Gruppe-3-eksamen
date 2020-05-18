@@ -27,7 +27,7 @@
     position: absolute;
     left: 50%;
     margin-left: -100px;
-    padding-top: 40px;
+    padding-top: 110px;
 }
 
 .buttoninhold{ /* billede i knappen*/
@@ -73,7 +73,7 @@ font-family: rubik, sans-serif;
     position: absolute;
     left: 50%;
     margin-left: -100px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .Ebuttoninhold2{ /* billede i knappen*/
@@ -90,7 +90,7 @@ font-family: rubik, sans-serif;
 .Ebuttonbox3{ /*container der holder button 1*/
     text-align: center;
     display: block;
-    padding: 100px;
+    padding: 120px;
 }
 
 .Ebutton3{ /* container der holder knapelementer*/
@@ -148,6 +148,14 @@ font-family: rubik, sans-serif;
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+#EmyBtn {
+  width: 5%;
+  margin-top: 30px;
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
 }
 
 /*---------TEMPLATE SIDEN----------*/
