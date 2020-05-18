@@ -2,7 +2,8 @@
 var modal = document.getElementById("Konfiguration1");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var tandhjul = document.querySelector("#tandhjul")
+
 
 // Ændrer værdien til Lukas' knap navn (Class name)
 let closeModalClasses = document.getElementsByClassName("close-modal");
@@ -14,7 +15,7 @@ let manuelKonfiguration = document.querySelector("#manuel");
 
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
+tandhjul.onclick = function(event) {
   modal.style.display = "block";
   modalS1.style.display = "block";
   modalS2.style.display = "none";
