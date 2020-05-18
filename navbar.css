@@ -73,6 +73,11 @@ ul{
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
+.tandhjul-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 #tandhjul{
   position: relative;
   float: right;
