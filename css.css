@@ -6,7 +6,6 @@
 
 /*Alt skal være i denne div (ipadsize)*/
 .ipadsize{
-    height: 1024px;
     width: 768px;
     background-color: #fff;
     border-style: solid;
@@ -284,6 +283,45 @@ input[type=radio]
 {
   transform: scale(1.5);
 }
+
+.vline{
+    margin: 50px 0 50px 80px;
+    height: 3px;
+    width: 600px;
+    background-color: #515864;
+}
+
+.vtitle{
+    font-size: 25px;
+    color: #515864;
+    padding: 20px 30px;
+    
+}
+
+.simplebuttonbox{
+    padding: 50px 0 50px 40px;
+}
+
+.simplebutton{
+    left: 50%;
+    font-size: 25px;
+    color: #f15a44;
+}
+
+.vconfirm{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.vconfirmtekst{
+    text-decoration: none;
+    font-size: 25px;
+    color: #f15a44;
+    cursor: pointer;
+    
+}
+
+
 
 
 
