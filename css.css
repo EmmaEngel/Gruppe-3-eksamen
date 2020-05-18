@@ -1,5 +1,7 @@
+@charset "UTF-8";
 *{
     margin: 0;
+    font-family: titillium-web, sans-serif;
 }
 
 /*Alt skal være i denne div (ipadsize)*/
@@ -9,7 +11,7 @@
     background-color: #fff;
     border-style: solid;
     border-width: 1px;
-    
+
 }
 
 
@@ -23,7 +25,8 @@
 
 .button1{ /* container der holder knapelementer*/
     position: absolute;
-    left: 75%;
+    left: 50%;
+    margin-left: -100px;
     padding-top: 40px;
 }
 
@@ -55,7 +58,97 @@
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
 }
+.undertekst{
+text-align: center;
+font-family: rubik, sans-serif;
+}
+/*_kontrolpanel-knap_*/
+.Ebuttonbox2{ /*container der holder button 1*/
+    text-align: center;
+    display: block;
+    padding: 100px;
+}
 
+.Ebutton2{ /* container der holder knapelementer*/
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+}
+
+.Ebuttoninhold2{ /* billede i knappen*/
+    width: 100%;
+    text-align: center;
+}
+.Ebuttonimg2{
+    width:80%;
+    padding-top: 15%;
+}
+
+/*_service-knap_*/
+
+.Ebuttonbox3{ /*container der holder button 1*/
+    text-align: center;
+    display: block;
+    padding: 100px;
+}
+
+.Ebutton3{ /* container der holder knapelementer*/
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 20px;
+}
+
+.Ebuttoninhold3{ /* billede i knappen*/
+    width: 100%;
+    text-align: center;
+}
+.Ebuttonimg3{
+    width:70%;
+    padding-top: 8%;
+}
+
+/*_ Popup vindue med "dagensopgave"_ */
+.Emodal {
+  /* display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* popup indhold */
+.Emodalcontent {
+  background-color: #515864;
+  margin: auto;
+  padding: 20px;
+  border: none;
+  width: 20%;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* lukke knappen */
+.Eclose {
+  color: #FFFFFF;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /*---------TEMPLATE SIDEN----------*/
 
@@ -75,7 +168,7 @@
     padding: 30px 0 0 35px;
     font-size: 20px;
     color: #515864;
-    
+
 }
 
 input[type=number], select {
@@ -108,10 +201,10 @@ input[type=text], select {
     color: #515864;
     outline-width: 0;
 }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /*checkbox*/
@@ -207,7 +300,7 @@ input[type=number]::-webkit-outer-spin-button {
     position: absolute;
     content: '';
     border-bottom: none;
-    transform: perspective(15px) rotateX(5deg);  
+    transform: perspective(15px) rotateX(5deg);
 }
 .button:after{
     position: absolute;
@@ -215,54 +308,4 @@ input[type=number]::-webkit-outer-spin-button {
     content: '';
     border-top: none;
     transform: perspective(15px) rotateX(-5deg);
-}
-
-.undertekst{
-text-align: center;
-font-family: ;
-
-}
-/*_kontrolpanel-knap_*/
-.buttonbox2{ /*container der holder button 1*/
-    text-align: center;
-    display: block;
-    padding: 100px;
-}
-
-.button2{ /* container der holder knapelementer*/
-    position: absolute;
-    left: 75%;
-    padding-top: 50px;
-}
-
-.buttoninhold2{ /* billede i knappen*/
-    width: 100%;
-    text-align: center;
-}
-.buttonimg2{
-    width:80%;
-    padding-top: 15%;
-}
-
-/*_service-knap_*/
-
-.buttonbox3{ /*container der holder button 1*/
-    text-align: center;
-    display: block;
-    padding: 100px;
-}
-
-.button3{ /* container der holder knapelementer*/
-    position: absolute;
-    left: 75%;
-    padding-top: 20px;
-}
-
-.buttoninhold3{ /* billede i knappen*/
-    width: 100%;
-    text-align: center;
-}
-.buttonimg3{
-    width:70%;
-    padding-top: 8%;
 }

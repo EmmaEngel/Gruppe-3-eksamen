@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    font-family: titillium-web, sans-serif;
+}
+/*Alt skal være i denne div (ipadsize)*/
+.ipadsize{
+    height: 1024px;
+    width: 768px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+}
+ul{
+  list-style-type: none;
+}
+.menu {
+  width: 50px;
+  height: 7px;
+  background-color: white;
+  margin: 10px 0;
+}
+
+img{
+  height: auto;
+  width: 45vw;
+  float: left;
+  padding-top: 5px;
+}
+.navbar{
+  background-color: #515864;
+  height: 10vh;
+}
+/* burger-menu*/
+.dropbtn {
+  background-color: inherit;
+  color: white;
+  padding: 16px;
+  padding-top: 23px;
+  margin-left: 430px;
+  border: none;
+  cursor: pointer;
+}
+
+/* dropdown menuen*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: inherit;
+}
+
+/* Dropdown-menu (skjult) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #515864;
+  min-width: 400px;
+  min-height: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 30px;
+  margin-right: -27px;
+  right: 0;
+}
+
+/* links i dropdown */
+.dropdown-content a {
+  color: #FFF;
+  font-size: 40px;
+  padding: 40px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+/* farve på link til hover*/
+.dropdown-content a:hover {background-color: ;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.Tandhjul{
+position: relative;
+font-size: 40px;
+margin-left: 400px;
+margin-top: 30px;
+}
+.knapper{
+position: relative;
+margin-left: 300px;
+margin-top: auto;
+font-size: 40px;
+}
