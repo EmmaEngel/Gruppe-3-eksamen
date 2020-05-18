@@ -10,7 +10,7 @@ let closeModalClasses = document.getElementsByClassName("close-modal");
 let modalS1 = document.querySelector(".modal-s-1");
 let modalS2 = document.querySelector(".modal-s-2");
 
-let knapText = document.querySelector(".knaptext");
+let manuelKonfiguration = document.querySelector("#manuel");
 
 
 // When the user clicks on the button, open the modal
@@ -21,7 +21,7 @@ btn.onclick = function() {
 }
 
 // Når du klikker på knappen med prikkerne vises anden modal
-knapText.onclick = function() {
+manuelKonfiguration.onclick = function() {
   modalS1.style.display = "none";
   modalS2.style.display = "block";
 }
