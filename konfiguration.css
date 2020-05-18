@@ -439,10 +439,16 @@ font-size: 14px;
 .modal-s-2 {
   display: none;
 }
-}
 
 #nextModal {
   background: #f15a22;
   border: none;
   color: white;
 }
+
+#manuel:hover {
+  cursor: pointer;
+}
+
+}
+
