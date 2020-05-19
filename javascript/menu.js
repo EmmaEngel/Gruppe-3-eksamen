@@ -23,33 +23,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-//Nedenstående er den funktion jeg har forsøgt mig med
-
-function secondFunction(){
-// Hent popuppen
-var modal = document.getElementById("EEmyModal");
-
-// Hent knappen der åbner popuppen
-var btn = document.getElementsByClassName("vqr");
-
-// Hent <span> elementet der lukker popuppen
-var span = document.getElementsByClassName("EEclose")[0];
-
-// Når brugeren klikker på knappen, åben popuppen
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// Når brugeren klikker på <span> (x), Luk popuppen
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// Når brugeren klikker nogen steder ude for popuppen, Luk den
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-}
