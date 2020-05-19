@@ -5,17 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Robot Nordic</title>
         <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="https://use.typekit.net/fgx0cth.css">
-    <link rel="stylesheet" href="https://use.typekit.net/hfb3jtf.css">
+        <link rel="stylesheet" href="https://use.typekit.net/hfb3jtf.css">
     </head>
     <body>
-        <div class="ipadsize">
-            
-            
-            <div class="vtitle" >
-                Template
+        <nav>
+            <img src="https://robotnordic.dk/wp-content/uploads/2019/05/RN_logo_NEG@2x-400x95.png" alt="">
+            <div class="dropbtn-container">
+                <button onclick="myFunction()">
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </button>
             </div>
-            <div class="simplebuttonbox">
+            <div>
+            </div>
+        </nav>
+        <div class="dropdown-content-container">
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Template</a>
+                <a href="#">Status</a>
+                <a href="#">Service</a>
+            </div>
+        </div>
+          <script src="javascript/navbar.js"></script>
+        
+        <div class="vtitle" >
+            Template
+        </div>
+        <div class="simplebuttonbox">
             <a class="simplebutton" href="#" target="_blank">
                 Opret nyt template
             </a>
@@ -26,7 +45,7 @@
                     <div class="teksttknap">
                         Mønster navn
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="text" placeholder="Mønster navn">
                         </INPUT>
                     </div>
@@ -35,7 +54,7 @@
                     <div class="teksttknap">
                         Palle type
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="text" placeholder="Palle type">
                         </INPUT>
                     </div>
@@ -50,7 +69,7 @@
                     <div class="teksttknap">
                         Fyldnings højde
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Fyldnings højde">
                         </INPUT>
                     </div>
@@ -59,7 +78,7 @@
                     <div class="teksttknap">
                         Fyldnings procent
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Fyldnings procent">
                         </INPUT>
                     </div>
@@ -68,7 +87,7 @@
                     <div class="teksttknap">
                         Tilladt udhæng
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Tilladt udhæng">
                         </INPUT>
                     </div>
@@ -79,7 +98,7 @@
                     <div class="teksttknap">
                         Palle bredde
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Palle bredde">
                         </INPUT>
                     </div>
@@ -88,7 +107,7 @@
                     <div class="teksttknap">
                         Palle højde
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Palle højde">
                         </INPUT>
                     </div>
@@ -97,7 +116,7 @@
                     <div class="teksttknap">
                         Palle længde
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Palle længde">
                         </INPUT>
                     </div>
@@ -107,7 +126,7 @@
                 <div class="vcolumn">
                     <div class="teksttknap">
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <div class="check">
                             <input id="bland" type="checkbox" name="bland" value="bland">
                             <label for="bland">Blandede lag</label>
@@ -118,7 +137,7 @@
                     <div class="teksttknap">
 
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <div class="check">
                             <input id="spred" type="checkbox" name="spred" value="spred">
                             <label for="spred">Spred pakker</label>
@@ -128,7 +147,7 @@
                 <div class="vcolumn">
                     <div class="teksttknap">
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <div class="check">
                             <input id="fuld" type="checkbox" name="fuld" value="fuld">
                             <label for="fuld">Fulde lag</label>
@@ -140,7 +159,7 @@
                 <div class="vcolumn">
                     <div class="teksttknap">
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <div class="check">
                             <input id="center" type="checkbox" name="center" value="center">
                             <label for="center">Center loads</label>
@@ -151,7 +170,7 @@
                     <div class="teksttknap">
 
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <div class="check">
                             <input id="pakker" type="checkbox" name="pakker" value="pakker">
                             <label for="pakker">Pakker ved kant</label>
@@ -161,7 +180,7 @@
                 <div class="vcolumn">
                     <div class="teksttknap">
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <div class="check">
                             <input id="bind" type="checkbox" name="bind" value="bind">
                             <label for="bind">Bind lag</label>
@@ -174,7 +193,7 @@
                     <div class="teksttknap">
                         Sensor max positive margin
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="text" placeholder="Mønster navn">
                         </INPUT>
                     </div>
@@ -183,7 +202,7 @@
                     <div class="teksttknap">
                        Sensor max Negative margin
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="text" placeholder="Palle type">
                         </INPUT>
                     </div>
@@ -194,7 +213,7 @@
                         Udregn i 
                         <br>
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <div class="choose">
                             <div class="chooseline">
                                 <input type="radio" id="percent" name="unit" value="percent">
@@ -218,7 +237,7 @@
                     <div class="teksttknap">
                         navn
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="text" placeholder=" navn">
                         </INPUT>
                     </div>
@@ -227,7 +246,7 @@
                     <div class="teksttknap">
                         Antal produkter
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Palle type">
                         </INPUT>
                     </div>
@@ -242,7 +261,7 @@
                     <div class="teksttknap">
                         Pakkens bredde
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Pakkens bredde">
                         </INPUT>
                     </div>
@@ -251,7 +270,7 @@
                     <div class="teksttknap">
                         Pakkens højde
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Pakkens højde">
                         </INPUT>
                     </div>
@@ -260,7 +279,7 @@
                     <div class="teksttknap">
                         Pakkens længde
                     </div>
-                    <div href="#" class="button orange">
+                    <div href="#" class="vbutton orange">
                         <INPUT TYPE="number" placeholder="Pakkens længde">
                         </INPUT>
                     </div>
@@ -270,7 +289,6 @@
                  <a class="vconfirmtekst">
                  Gem
                 </a>
-            </div>
             </div>
         </div>
     </body>
