@@ -60,6 +60,8 @@
 .undertekst{
 text-align: center;
 font-family: rubik, sans-serif;
+color: #111724;
+font-size: 10pt;
 }
 
 
@@ -111,22 +113,22 @@ font-family: rubik, sans-serif;
 }
 
 /*_ Popup vindue med "dagensopgave"_ */
-/* The Modal (background) */
+/* Popuppens baggrund */
 .Emodal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 300px; /* Location of the box */
+  display: none; /* Altid gemt */
+  position: fixed; /*Så den forbliver på sin plads */
+  z-index: 1; /* Så den kommer til at sidde på overfladen*/
+  padding-top: 300px; /* popuppens plads */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
+/* Popuppens indhold */
 .Emodal-content {
   background-color: #515864;
   margin: auto;
@@ -137,7 +139,7 @@ font-family: rubik, sans-serif;
   text-align: center;
 }
 
-/* The Close Button */
+/* Lukke knappen */
 .Eclose {
   color: #FFFFFF;
   float: right;
@@ -152,11 +154,12 @@ font-family: rubik, sans-serif;
   cursor: pointer;
 }
 
+/*Brugerikon knappen*/
 #EmyBtn{
   width: 10%;
   position: absolute;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -45px;
   padding-top: 20px;
 }
 
