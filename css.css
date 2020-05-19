@@ -321,9 +321,32 @@ input[type=radio]
     
 }
 
+/*-------Index side-------*/
 
 
+.vbackground{
+    background-color: #515864;
+    height: 1024px;
+    width: 100%;
+    text-align: center;
+}
 
+.vlogo{
+    width: 500px;
+    padding-bottom: 80px
+}
+
+.vqr{
+    width: 500px;
+    margin-bottom: 70px;
+}
+
+.qrtekst{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff;
+    line-height: 55px;
+}
 
 
 
