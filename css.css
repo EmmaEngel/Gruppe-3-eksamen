@@ -259,7 +259,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .check{
-    padding: 18px 0 0 20px;
+    padding: 14px 0 0 20px;
     font-size: 20px;
     color: #515864;
 }
@@ -270,7 +270,7 @@ input[type=checkbox]
 }
 
 .choose{
-    padding: 20px 0 0 20px;
+    padding: 14px 0 0 20px;
     font-size: 20px;
 }
 
