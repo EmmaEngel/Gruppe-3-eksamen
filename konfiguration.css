@@ -21,7 +21,8 @@
   /*----------- Modal Content------------ */
   
   .modal-header-title{
-    font-weight: 200;
+    font-family: Rubik;
+    font-weight: 400;
     color: #515864;
   }
 
@@ -164,6 +165,7 @@ font-style: normal;
 .input-title{
 color: #515864;
 font-size: 12px;
+margin-bottom: 5px;
 }
 
 input {
@@ -257,6 +259,7 @@ color: #949BA2;
 #manuel{
 color: #f15a22;
 font-size: 14px;
+padding-top: 10px;
 }
 /* -------------The Modal (background)--------------- */
 .modal-s-2 {
