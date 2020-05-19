@@ -35,261 +35,288 @@
             Template
         </div>
         <div class="simplebuttonbox">
-            <a class="simplebutton" href="#">
+            <a class="simplebutton">
                 Opret nyt template
             </a>
         </div>
-        <div class="vcenterform">
-            <div class="vcolumncontainer">
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Mønster navn
+        <form name="vform" action="menu.html" onsubmit="return validateForm()" method="post">
+            <div class="vcenterform">
+                <div class="vcolumncontainer">
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Mønster navn
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="text" name="moenster" placeholder="Mønster navn">
+                            </INPUT>
+                        </div>
                     </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="text" placeholder="Mønster navn">
-                        </INPUT>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Palle type
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="text" name="palletype" placeholder="Palle type">
+                            </INPUT>
+                        </div>
                     </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Palle type
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="text" placeholder="Palle type">
-                        </INPUT>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                    </div>
-                </div>
-            </div>
-            <div class="vcolumncontainer">
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Fyldnings højde
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Fyldnings højde">
-                        </INPUT>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Fyldnings procent
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Fyldnings procent">
-                        </INPUT>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Tilladt udhæng
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Tilladt udhæng">
-                        </INPUT>
-                    </div>
-                </div>
-            </div>
-            <div class="vcolumncontainer">
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Palle bredde
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Palle bredde">
-                        </INPUT>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Palle højde
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Palle højde">
-                        </INPUT>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Palle længde
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Palle længde">
-                        </INPUT>
-                    </div>
-                </div>
-            </div>
-            <div class="vcolumncontainer">
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <div class="check">
-                            <input id="bland" type="checkbox" name="bland" value="bland">
-                            <label for="bland">Blandede lag</label>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
                         </div>
                     </div>
                 </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-
+                <div class="vcolumncontainer">
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Fyldnings højde
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Fyldnings højde">
+                            </INPUT>
+                        </div>
                     </div>
-                    <div href="#" class="vbutton orange">
-                        <div class="check">
-                            <input id="spred" type="checkbox" name="spred" value="spred">
-                            <label for="spred">Spred pakker</label>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Fyldnings procent
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Fyldnings procent">
+                            </INPUT>
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Tilladt udhæng
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Tilladt udhæng">
+                            </INPUT>
                         </div>
                     </div>
                 </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
+                <div class="vcolumncontainer">
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Palle bredde
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Palle bredde">
+                            </INPUT>
+                        </div>
                     </div>
-                    <div href="#" class="vbutton orange">
-                        <div class="check">
-                            <input id="fuld" type="checkbox" name="fuld" value="fuld">
-                            <label for="fuld">Fulde lag</label>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Palle højde
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Palle højde">
+                            </INPUT>
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Palle længde
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Palle længde">
+                            </INPUT>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="vcolumncontainer">
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <div class="check">
-                            <input id="center" type="checkbox" name="center" value="center">
-                            <label for="center">Center loads</label>
+                <div class="vcolumncontainer">
+                    <div class="vcolumn">
+                        <div class="teksttknap">
                         </div>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <div class="check">
-                            <input id="pakker" type="checkbox" name="pakker" value="pakker">
-                            <label for="pakker">Pakker ved kant</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <div class="check">
-                            <input id="bind" type="checkbox" name="bind" value="bind">
-                            <label for="bind">Bind lag</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vcolumncontainer">
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Sensor max positive margin
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="text" placeholder="Mønster navn">
-                        </INPUT>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                       Sensor max Negative margin
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="text" placeholder="Palle type">
-                        </INPUT>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        <br>
-                        Udregn i 
-                        <br>
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <div class="choose">
-                            <div class="chooseline">
-                                <input type="radio" id="percent" name="unit" value="percent">
-                                <label for="percent">%</label>
+                        <div href="#" class="vbutton orange">
+                            <div class="check">
+                                <input id="bland" type="checkbox" name="bland" value="bland">
+                                <label for="bland">Blandede lag</label>
                             </div>
-                            <div class="chooseline">
-                                <input type="radio" id="mm" name="unit" value="mm">
-                                <label for="mm">mm</label><br>
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <div class="check">
+                                <input id="spred" type="checkbox" name="spred" value="spred">
+                                <label for="spred">Spred pakker</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <div class="check">
+                                <input id="fuld" type="checkbox" name="fuld" value="fuld">
+                                <label for="fuld">Fulde lag</label>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="vline">
-            </div>
-            <div class="vtitle" >
-                Produkt 1
-            </div>
-            <div class="vcolumncontainer">
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        navn
+                <div class="vcolumncontainer">
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <div class="check">
+                                <input id="center" type="checkbox" name="center" value="center">
+                                <label for="center">Center loads</label>
+                            </div>
+                        </div>
                     </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="text" placeholder=" navn">
-                        </INPUT>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <div class="check">
+                                <input id="pakker" type="checkbox" name="pakker" value="pakker">
+                                <label for="pakker">Pakker ved kant</label>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Antal produkter
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Palle type">
-                        </INPUT>
-                    </div>
-                </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                    </div>
-                </div>
-            </div>
-            <div class="vcolumncontainer">
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Pakkens bredde
-                    </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Pakkens bredde">
-                        </INPUT>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <div class="check">
+                                <input id="bind" type="checkbox" name="bind" value="bind">
+                                <label for="bind">Bind lag</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Pakkens højde
+                <div class="vcolumncontainer">
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Sensor max positive margin
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="text" placeholder="Mønster navn">
+                            </INPUT>
+                        </div>
                     </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Pakkens højde">
-                        </INPUT>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                           Sensor max Negative margin
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="text" placeholder="Palle type">
+                            </INPUT>
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            <br>
+                            Udregn i 
+                            <br>
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <div class="choose">
+                                <div class="chooseline">
+                                    <input type="radio" id="percent" name="unit" value="percent">
+                                    <label for="percent">%</label>
+                                </div>
+                                <div class="chooseline">
+                                    <input type="radio" id="mm" name="unit" value="mm">
+                                    <label for="mm">mm</label><br>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="vcolumn">
-                    <div class="teksttknap">
-                        Pakkens længde
+                <div class="vline">
+                </div>
+                <div class="vtitle" >
+                    Produkt 1
+                </div>
+                <div class="vcolumncontainer">
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            navn
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="text" placeholder=" navn">
+                            </INPUT>
+                        </div>
                     </div>
-                    <div href="#" class="vbutton orange">
-                        <INPUT TYPE="number" placeholder="Pakkens længde">
-                        </INPUT>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Antal produkter
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Palle type">
+                            </INPUT>
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                        </div>
                     </div>
                 </div>
+                <div class="vcolumncontainer">
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Pakkens bredde
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Pakkens bredde">
+                            </INPUT>
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Pakkens højde
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Pakkens højde">
+                            </INPUT>
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Pakkens længde
+                        </div>
+                        <div href="#" class="vbutton orange">
+                            <INPUT TYPE="number" placeholder="Pakkens længde">
+                            </INPUT>
+                        </div>
+                    </div>
+                </div>
+                <div class="vconfirm">
+                     <a class="vconfirmtekst">
+                      <input type="submit" value="Submit">
+                    </a>
+                </div>
             </div>
-            <div class="vconfirm">
-                 <a class="vconfirmtekst">
-                 Gem
-                </a>
-            </div>
-        </div>
+        </form>
+        <script>
+            function validateForm() {
+            var x = document.forms["vform"]["moenster"].value;
+            if (x == "") {
+            alert("Mønster navn skal udfyldes");
+            return false;
+              }
+            }
+            
+            function validateForm() {
+            var x = document.forms["vform"]["palletype"].value;
+            if (x == "") {
+            alert("Palle type navn skal udfyldes");
+            return false;
+              }
+            }
+            
+            function validateForm() {
+            var x = document.forms["vform"]["palletype"].value;
+            if (x == "") {
+            alert("Palle type navn skal udfyldes");
+            return false;
+              }
+            }
+        </script>
     </body>
 </html>
