@@ -9,7 +9,7 @@
   <title>Robot Nordic</title>
   <link rel="stylesheet" href="navbar.css">
   <link rel="stylesheet" href="konfiguration.css">
-  
+
 
 </head>
 <header>
@@ -18,7 +18,7 @@
 
 <body>
   <nav>
-    <img src="https://robotnordic.dk/wp-content/uploads/2019/05/RN_logo_NEG@2x-400x95.png" alt="">
+<a href="menu.html"><img src="https://robotnordic.dk/wp-content/uploads/2019/05/RN_logo_NEG@2x-400x95.png" alt="Robot Nordic Logo">
     <div class="dropbtn-container">
         <button onclick="myFunction()">
           <div class="menu"></div>
@@ -26,7 +26,7 @@
                 <div class="menu"></div>
         </button>
     </div>
-    
+
     <div>
 
     </div>
@@ -43,8 +43,8 @@
     <img id="tandhjul" src="images/knap-ydre.png" alt="outline">
   </div>
   <div class="knapper">
-    <button type="button" name="Start">Start</button>
-    <button type="button" name="Stop">Stop</button>
+    <button class="w3-button w3-green" onclick="move()">Start</button>
+    <button type="button" name="Stop" onclick="stop()">Stop</button>
     <button type="button" name="Nulstil">Nulstil</button>
   </div>
   <div class="w3-container">
@@ -52,10 +52,8 @@
     <h2 id="statustitel">Status</h2>
 
     <div class="w3-light-grey">
-      <div id="myBar" class="w3-container w3-green w3-center" style="width:60%">60%</div>
+      <div id="myBar" class="w3-container w3-round w3-green w3-center" style="width:30%">30%</div>
     </div>
-    <br>
-    <button class="w3-button w3-green" onclick="move()">Start</button>
 
   </div>
   <svg id="visualisering" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348.14 502.04">

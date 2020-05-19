@@ -4,7 +4,7 @@
     margin: 0;
     font-family: titillium-web, sans-serif;
 }
-#statustitel{
+h2{
   font-family: titillium-web, sans-serif;
   padding-left: 110px;
 }
@@ -72,9 +72,6 @@ ul{
   display: block;
 }
 
-/* farve på link til hover*/
-.dropdown-content a:hover {background-color: ;}
-
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
@@ -132,4 +129,7 @@ nav {
   background-color: #515864;
   border: none;
 }
+}
+a{
+  display: contents;
 }
