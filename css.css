@@ -163,9 +163,14 @@ font-family: rubik, sans-serif;
 
 /*---------TEMPLATE SIDEN----------*/
 
+.vcenterform{
+    margin-left: 15px
+}
+
 .vcolumncontainer{
     display: flex;
     font-family: sans-serif;
+    max-width: 730px;
 }
 .vcolumn{
     flex: 33%;
@@ -347,6 +352,3 @@ input[type=radio]
     color: #fff;
     line-height: 55px;
 }
-
-
-
