@@ -193,39 +193,28 @@ a{
 
 input[type=number], select {
     width: 100%;
-    padding: 18px 20px;
-    margin: 8px 0;
-    display: inline-block;
+    padding: 14px 20px;
     border: 0px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
     background-color: rgba(0,0,0,0);
-    position: relative;
-    display: block;
     font-size: 20px;
     color: #515864;
-    outline-width: 0;
 }
 input[type=text], select {
     width: 100%;
-    padding: 18px 20px;
-    margin: 8px 0;
-    display: inline-block;
+    padding: 14px 20px;
     border: 0px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
     background-color: rgba(0,0,0,0);
-    position: relative;
-    display: block;
     font-size: 20px;
     color: #515864;
-    outline-width: 0;
 }
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button{
   -webkit-appearance: none;
   margin: 0;
 }
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
 
 ::placeholder {
   color: rgba(81,88,100,0.4);
@@ -330,6 +319,61 @@ input[type=radio]
 
 }
 
+/*submit button*/
+
+.subbuttonbox{ /*container der holder button 1*/
+    text-align: center;
+    display: block;
+    padding:  50px 15px 50px 0;
+    height: 80px;
+    max-width: 730px;
+    
+}
+
+.subbutton{ /* container der holder knapelementer*/
+    left: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+
+/*.subbutton:hover {background-color: #3e8e41}*/
+
+.subbutton:active {
+    transform: scale(0.95);
+    border: none;
+}
+
+
+.subbuttontext{ /* tekst i knappen*/
+    padding-top: 12%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.subhex1{ /* venstre trekant*/
+    float: left;
+    border-right: 30px solid #f15a22;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+}
+
+.subhex2{ /*firkant i midten*/
+    float: left;
+    width: 150px;
+    height: 70px;
+    background-color: #f15a22;
+}
+
+.subhex3{ /*hoejre trekant*/
+    float: left;
+    border-left: 30px solid #f15a22;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+}
+/*end of submit button*/
+
 /*-------Index side-------*/
 
 
@@ -342,7 +386,7 @@ input[type=radio]
 
 .vlogo{
     width: 500px;
-    padding-bottom: 80px
+    padding-bottom: 80px;
 }
 
 .vqr{
