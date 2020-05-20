@@ -63,7 +63,9 @@ font-family: rubik, sans-serif;
 color: #111724;
 font-size: 10pt;
 }
-
+a{
+  text-decoration: none;
+}
 
 /*_kontrolpanel-knap_*/
 .Ebuttonbox2{ /*container der holder button 1*/
