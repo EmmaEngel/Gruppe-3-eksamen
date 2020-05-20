@@ -94,6 +94,16 @@ margin-top: 50px;
 font-size: 40px;
 padding-bottom: 100px;
 }
+.lbutton1{
+  background-color: orange;
+
+}
+.lbutton2{
+
+}
+.lbutton3{
+
+}
 #bruger{
   width: 7vw;
   position: relative;
@@ -102,12 +112,13 @@ padding-bottom: 100px;
 }
 #visualisering{
   width: 50vw;
-  padding: 40px;
-  margin: 40px 0px 20px 125px;
+  padding: 80px;
+  margin: 40px 200px 0px 167px;
 }
 .w3-container{
   padding-left: 110px;
   padding-right: 110px;
+  margin-bottom: -20px;
 }
 
 nav {
@@ -129,4 +140,7 @@ nav {
   background-color: #515864;
   border: none;
 }
+}
+#statustitel{
+  padding-left: 210px;
 }
