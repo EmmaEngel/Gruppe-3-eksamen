@@ -71,7 +71,7 @@
                             Fyldnings højde
                         </div>
                         <div href="#" class="vbutton orange">
-                            <INPUT TYPE="number" placeholder="Fyldnings højde">
+                            <INPUT TYPE="number" name="fyldningh" placeholder="Fyldnings højde">
                             </INPUT>
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                             Fyldnings procent
                         </div>
                         <div href="#" class="vbutton orange">
-                            <INPUT TYPE="number" placeholder="Fyldnings procent">
+                            <INPUT TYPE="number" name="fyldningp" placeholder="Fyldnings procent">
                             </INPUT>
                         </div>
                     </div>
@@ -317,7 +317,15 @@
             }
 
             function validateForm() {
-            var x = document.forms["vform"]["palletype"].value;
+            var x = document.forms["vform"]["fyldningh"].value;
+            if (x == "") {
+            alert("Palle type navn skal udfyldes");
+            return false;
+              }
+            }
+            
+            function validateForm() {
+            var x = document.forms["vform"]["fyldningp"].value;
             if (x == "") {
             alert("Palle type navn skal udfyldes");
             return false;
