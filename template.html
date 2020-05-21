@@ -286,20 +286,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="subbuttonbox">
-                    <button class="subbutton">
-                        <div class="subhex1"></div>
-                        <div class="subhex2">
-                            <div class="subbuttontext">
-                                Gem
+                <div class="centerbuttonconfirm">
+                    <div class="subbuttonbox">
+                        <button onclick="return bekraeft()" type="reset" value="Reset" class="subbutton">
+                            <div class="greysubhex1"></div>
+                            <div class="greysubhex2">
+                                <div class="subbuttontext">
+                                    Nulstil
+                                </div>
                             </div>
-                        </div>
-                        <div class="subhex3"></div>
-                    </button>
+                            <div class="greysubhex3"></div>
+                        </button>
+                    </div>
+                    <div class="subbuttonbox">
+                        <button class="subbutton">
+                            <div class="subhex1"></div>
+                            <div class="subhex2">
+                                <div class="subbuttontext">
+                                    Gem
+                                </div>
+                            </div>
+                            <div class="subhex3"></div>
+                        </button>
+                    </div>
                 </div>
             </div>
         </form>
         <script>
+            function bekraeft() {
+            return confirm("Er du sikker på at du vil nulstille?");
+            }
+            
             function validateForm() {
             var x = document.forms["vform"]["moenster"].value;
             if (x == "") {
