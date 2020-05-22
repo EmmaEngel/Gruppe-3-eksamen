@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="da">
 
     <head>
@@ -34,6 +35,39 @@
         <div class="vtitle" >
             Template
         </div>
+        <div class="vcenterform">
+                <div class="vcolumncontainer">
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            Vælg et template
+                        </div>
+                        <div class="vbutton orange">
+                            <div class="templateselect">
+                                <select id="template" name="template">
+                                    <option value="Template 1">Template 1</option>
+                                    <option value="Template 2">Template 2</option>
+                                    <option value="Template 3">Template 3</option>
+                                    <option value="Template 4">Template 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                            <br>
+                            <br>
+                        </div>
+                        <div class="vaelgknap">
+                            <input type="submit" value="Vælg">
+                        </div>
+                    </div>
+                    <div class="vcolumn">
+                        <div class="teksttknap">
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
         <div class="simplebuttonbox">
             <a class="simplebutton">
                 Opret nyt template
@@ -46,7 +80,7 @@
                         <div class="teksttknap">
                             Mønster navn
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="text" name="moenster" placeholder="Mønster navn">
                             </INPUT>
                         </div>
@@ -55,7 +89,7 @@
                         <div class="teksttknap">
                             Palle type
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="text" name="palletype" placeholder="Palle type">
                             </INPUT>
                         </div>
@@ -70,7 +104,7 @@
                         <div class="teksttknap">
                             Fyldnings højde
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="number" name="fyldningh" placeholder="Fyldnings højde">
                             </INPUT>
                         </div>
@@ -79,7 +113,7 @@
                         <div class="teksttknap">
                             Fyldnings procent
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="number" name="fyldningp" placeholder="Fyldnings procent">
                             </INPUT>
                         </div>
@@ -88,8 +122,8 @@
                         <div class="teksttknap">
                             Tilladt udhæng
                         </div>
-                        <div href="#" class="vbutton orange">
-                            <INPUT TYPE="number" placeholder="Tilladt udhæng">
+                        <div class="vbutton orange">
+                            <INPUT TYPE="number" name="udhaeng" placeholder="Tilladt udhæng">
                             </INPUT>
                         </div>
                     </div>
@@ -99,8 +133,8 @@
                         <div class="teksttknap">
                             Palle bredde
                         </div>
-                        <div href="#" class="vbutton orange">
-                            <INPUT TYPE="number" placeholder="Palle bredde">
+                        <div class="vbutton orange">
+                            <INPUT TYPE="number" name="palleb" placeholder="Palle bredde">
                             </INPUT>
                         </div>
                     </div>
@@ -108,8 +142,8 @@
                         <div class="teksttknap">
                             Palle højde
                         </div>
-                        <div href="#" class="vbutton orange">
-                            <INPUT TYPE="number" placeholder="Palle højde">
+                        <div class="vbutton orange">
+                            <INPUT TYPE="number" name="palleh" placeholder="Palle højde">
                             </INPUT>
                         </div>
                     </div>
@@ -117,8 +151,8 @@
                         <div class="teksttknap">
                             Palle længde
                         </div>
-                        <div href="#" class="vbutton orange">
-                            <INPUT TYPE="number" placeholder="Palle længde">
+                        <div class="vbutton orange">
+                            <INPUT TYPE="number" name="pallel" placeholder="Palle længde">
                             </INPUT>
                         </div>
                     </div>
@@ -127,7 +161,7 @@
                     <div class="vcolumn">
                         <div class="teksttknap">
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <div class="check">
                                 <input id="bland" type="checkbox" name="bland" value="bland">
                                 <label for="bland">Blandede lag</label>
@@ -138,7 +172,7 @@
                         <div class="teksttknap">
 
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <div class="check">
                                 <input id="spred" type="checkbox" name="spred" value="spred">
                                 <label for="spred">Spred pakker</label>
@@ -148,7 +182,7 @@
                     <div class="vcolumn">
                         <div class="teksttknap">
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <div class="check">
                                 <input id="fuld" type="checkbox" name="fuld" value="fuld">
                                 <label for="fuld">Fulde lag</label>
@@ -160,7 +194,7 @@
                     <div class="vcolumn">
                         <div class="teksttknap">
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <div class="check">
                                 <input id="center" type="checkbox" name="center" value="center">
                                 <label for="center">Center loads</label>
@@ -171,7 +205,7 @@
                         <div class="teksttknap">
 
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <div class="check">
                                 <input id="pakker" type="checkbox" name="pakker" value="pakker">
                                 <label for="pakker">Pakker ved kant</label>
@@ -181,7 +215,7 @@
                     <div class="vcolumn">
                         <div class="teksttknap">
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <div class="check">
                                 <input id="bind" type="checkbox" name="bind" value="bind">
                                 <label for="bind">Bind lag</label>
@@ -194,7 +228,7 @@
                         <div class="teksttknap">
                             Sensor max positive margin
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="text" placeholder="Mønster navn">
                             </INPUT>
                         </div>
@@ -203,7 +237,7 @@
                         <div class="teksttknap">
                            Sensor max Negative margin
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="text" placeholder="Palle type">
                             </INPUT>
                         </div>
@@ -214,7 +248,7 @@
                             Udregn i
                             <br>
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <div class="choose">
                                 <div class="chooseline">
                                     <input type="radio" id="percent" name="unit" value="percent">
@@ -238,7 +272,7 @@
                         <div class="teksttknap">
                             navn
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="text" placeholder=" navn">
                             </INPUT>
                         </div>
@@ -247,7 +281,7 @@
                         <div class="teksttknap">
                             Antal produkter
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="number" placeholder="Palle type">
                             </INPUT>
                         </div>
@@ -262,7 +296,7 @@
                         <div class="teksttknap">
                             Pakkens bredde
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="number" placeholder="Pakkens bredde">
                             </INPUT>
                         </div>
@@ -271,7 +305,7 @@
                         <div class="teksttknap">
                             Pakkens højde
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="number" placeholder="Pakkens højde">
                             </INPUT>
                         </div>
@@ -280,7 +314,7 @@
                         <div class="teksttknap">
                             Pakkens længde
                         </div>
-                        <div href="#" class="vbutton orange">
+                        <div class="vbutton orange">
                             <INPUT TYPE="number" placeholder="Pakkens længde">
                             </INPUT>
                         </div>
@@ -328,7 +362,7 @@
             function validateForm() {
             var x = document.forms["vform"]["palletype"].value;
             if (x == "") {
-            alert("Palle type navn skal udfyldes");
+            alert("Palle type skal udfyldes");
             return false;
               }
             }
@@ -336,7 +370,7 @@
             function validateForm() {
             var x = document.forms["vform"]["fyldningh"].value;
             if (x == "") {
-            alert("Palle type navn skal udfyldes");
+            alert("Fyldningshøjde skal udfyldes");
             return false;
               }
             }
@@ -344,7 +378,39 @@
             function validateForm() {
             var x = document.forms["vform"]["fyldningp"].value;
             if (x == "") {
-            alert("Palle type navn skal udfyldes");
+            alert("Fyldningsprocent skal udfyldes");
+            return false;
+              }
+            }
+            
+            function validateForm() {
+            var x = document.forms["vform"]["udhaeng"].value;
+            if (x == "") {
+            alert("Tilladt udhæng skal udfyldes");
+            return false;
+              }
+            }
+            
+            function validateForm() {
+            var x = document.forms["vform"]["palleb"].value;
+            if (x == "") {
+            alert("Palle bredde skal udfyldes");
+            return false;
+              }
+            }
+            
+            function validateForm() {
+            var x = document.forms["vform"]["palleh"].value;
+            if (x == "") {
+            alert("Palle højde skal udfyldes");
+            return false;
+              }
+            }
+            
+            function validateForm() {
+            var x = document.forms["vform"]["pallel"].value;
+            if (x == "") {
+            alert("Palle længde skal udfyldes");
             return false;
               }
             }
