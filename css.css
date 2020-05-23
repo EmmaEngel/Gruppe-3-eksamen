@@ -141,12 +141,6 @@ a{
   font-weight: bold;
 }
 
-.Eclose:hover,
-.Eclose:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 /*Brugerikon knappen*/
 #EmyBtn{
