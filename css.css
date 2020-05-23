@@ -60,7 +60,7 @@ a{
 }
 
 /*_kontrolpanel-knap_*/
-.Ebuttonbox2{ /*container der holder button 1*/
+.Ebuttonbox2{ /*container der holder button 2*/
     text-align: center;
     display: block;
     padding: 50px;
@@ -84,7 +84,7 @@ a{
 
 /*_service-knap_*/
 
-.Ebuttonbox3{ /*container der holder button 1*/
+.Ebuttonbox3{ /*container der holder button 3*/
     text-align: center;
     display: block;
     padding: 170px;
