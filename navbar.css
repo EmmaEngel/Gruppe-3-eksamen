@@ -83,42 +83,58 @@ ul{
 #tandhjul{
   position: relative;
   float: right;
-  margin-right: 100px;
-  margin-top: 30px;
-  width: 100px;
+  margin-right: 40px;
+  margin-top: 40px;
+  width: 105px;
 }
 .knapper{
-position: relative;
-margin-left: 200px;
-margin-top: 50px;
-font-size: 40px;
-padding-bottom: 100px;
+  position: relative;
+      margin-left: 120px;
+      margin-top: 34px;
+      font-size: 40px;
+      padding-bottom: 70px;
+      padding: 20px;
 }
 .lbutton1{
   background-color: orange;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff;
 
 }
 .lbutton2{
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #515864;
+  color: #fff;
 
 }
 .lbutton3{
-
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: inherit;
+  color: #515864;
 }
+
 #bruger{
   width: 7vw;
   position: relative;
   padding: 35px;
   margin-left: 37px;
 }
+
 #visualisering{
   width: 50vw;
-  padding: 80px;
-  margin: 40px 200px 0px 167px;
+  padding: 35px;
+  margin-left: 180px;
 }
 .w3-container{
   padding-left: 110px;
   padding-right: 110px;
-  margin-bottom: -20px;
+  padding-bottom: 5px;
 }
 
 nav {
@@ -127,8 +143,6 @@ nav {
   background: #515864;
   width: 100%;
 }
-
-
 
 .dropbtn-container {
   display: flex;
@@ -140,7 +154,9 @@ nav {
   background-color: #515864;
   border: none;
 }
-}
+
 #statustitel{
-  padding-left: 210px;
+  margin: 20px 0;
+  padding-left: initial;
+}
 }
