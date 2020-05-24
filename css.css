@@ -60,7 +60,7 @@ a{
 }
 
 /*_kontrolpanel-knap_*/
-.Ebuttonbox2{ /*container der holder button 1*/
+.Ebuttonbox2{ /*container der holder button 2*/
     text-align: center;
     display: block;
     padding: 50px;
@@ -84,7 +84,7 @@ a{
 
 /*_service-knap_*/
 
-.Ebuttonbox3{ /*container der holder button 1*/
+.Ebuttonbox3{ /*container der holder button 3*/
     text-align: center;
     display: block;
     padding: 170px;
@@ -118,7 +118,6 @@ a{
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
@@ -127,7 +126,6 @@ a{
   background-color: #515864;
   margin: auto;
   padding: 40px;
-  border: 1px solid #888;
   width: 40%;
   color: #FFFFFF;
   text-align: center;
@@ -141,12 +139,6 @@ a{
   font-weight: bold;
 }
 
-.Eclose:hover,
-.Eclose:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 /*Brugerikon knappen*/
 #EmyBtn{
