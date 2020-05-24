@@ -73,7 +73,7 @@
                 Opret nyt template
             </a>
         </div>
-        <form name="vform" action="menu.html" onsubmit="return validateForm()" method="post">
+        <form name="vform" action="menu.html" onsubmit="return !!(validateForm2() & validateForm3() & validateForm4() & validateForm5() & validateForm6() & validateForm7() & validateForm8());" method="post">
             <div class="vcenterform">
                 <div class="vcolumncontainer">
                     <div class="vcolumn">
@@ -310,9 +310,9 @@
                         <button onclick="return bekraeft()" type="reset" value="Reset" class="subbutton">
                             <span class="greysubhex1"></span>
                             <span class="greysubhex2">
-                                <div class="subbuttontext">
+                                <span class="subbuttontext">
                                     Nulstil
-                                </div>
+                                </span>
                             </span>
                             <span class="greysubhex3"></span>
                         </button>
@@ -321,9 +321,9 @@
                         <button class="subbutton">
                             <span class="subhex1"></span>
                             <span class="subhex2">
-                                <div class="subbuttontext">
+                                <span class="subbuttontext">
                                     Gem
-                                </div>
+                                </span>
                             </span>
                             <span class="subhex3"></span>
                         </button>
@@ -336,7 +336,7 @@
             return confirm("Er du sikker på at du vil nulstille?");
             }
             
-            function validateForm() {
+            function validateForm1() {
             var x = document.forms["vform"]["moenster"].value;
             if (x == "") {
             alert("Mønster navn skal udfyldes");
@@ -344,7 +344,7 @@
               }
             }
 
-            function validateForm() {
+            function validateForm2() {
             var x = document.forms["vform"]["palletype"].value;
             if (x == "") {
             alert("Palle type skal udfyldes");
@@ -352,7 +352,7 @@
               }
             }
 
-            function validateForm() {
+            function validateForm3() {
             var x = document.forms["vform"]["fyldningh"].value;
             if (x == "") {
             alert("Fyldningshøjde skal udfyldes");
@@ -360,7 +360,7 @@
               }
             }
             
-            function validateForm() {
+            function validateForm4() {
             var x = document.forms["vform"]["fyldningp"].value;
             if (x == "") {
             alert("Fyldningsprocent skal udfyldes");
@@ -368,7 +368,7 @@
               }
             }
             
-            function validateForm() {
+            function validateForm5() {
             var x = document.forms["vform"]["udhaeng"].value;
             if (x == "") {
             alert("Tilladt udhæng skal udfyldes");
@@ -376,7 +376,7 @@
               }
             }
             
-            function validateForm() {
+            function validateForm6() {
             var x = document.forms["vform"]["palleb"].value;
             if (x == "") {
             alert("Palle bredde skal udfyldes");
@@ -384,7 +384,7 @@
               }
             }
             
-            function validateForm() {
+            function validateForm7() {
             var x = document.forms["vform"]["palleh"].value;
             if (x == "") {
             alert("Palle højde skal udfyldes");
@@ -392,7 +392,7 @@
               }
             }
             
-            function validateForm() {
+            function validateForm8() {
             var x = document.forms["vform"]["pallel"].value;
             if (x == "") {
             alert("Palle længde skal udfyldes");
