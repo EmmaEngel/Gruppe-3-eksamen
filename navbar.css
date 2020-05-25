@@ -148,6 +148,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 140px;
 }
 
 .dropbtn-container button {
