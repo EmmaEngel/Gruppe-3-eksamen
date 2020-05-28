@@ -1,10 +1,9 @@
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+/* skift mellem show og hidden ved tryk på menuen */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+/* Luk dropdown, hvis brugeren klikker uden for den */
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
