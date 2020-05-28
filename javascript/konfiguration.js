@@ -1,4 +1,4 @@
-// Get the modal
+// Get the modal. Variablen har et unikt navn:modal
 var modal = document.getElementById("Konfiguration1");
 
 // Get the button that opens the modal
@@ -7,24 +7,24 @@ var tandhjul = document.querySelector("#tandhjul")
 
 // Ændrer værdien til Lukas' knap navn (Class name)
 let closeModalClasses = document.getElementsByClassName("close-modal");
-
+// Den tager kun det første element som defineres i det i parantese
 let modalS1 = document.querySelector(".modal-s-1");
 let modalS2 = document.querySelector(".modal-s-2");
 
 let manuelKonfiguration = document.querySelector("#manuel");
 
 
-// When the user clicks on the button, open the modal
+// When the user clicks on the button on first modal vindue, open the modal2
 tandhjul.onclick = function(event) {
   modal.style.display = "block";
   modalS1.style.display = "block";
   modalS2.style.display = "none";
 }
 
-// Når du klikker på knappen med prikkerne vises anden modal
+// fjernes denne, forsvinder tandhjuls functionen
 manuelKonfiguration.onclick = function() {
-  modalS1.style.display = "none";
-  modalS2.style.display = "block";
+modalS1.style.display = "none";
+modalS2.style.display = "block";
 }
 
 // Når man klikker på siden uden for modal'en lukkes modal'en
