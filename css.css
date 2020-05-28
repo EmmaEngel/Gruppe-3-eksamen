@@ -4,8 +4,6 @@
     font-family: titillium-web, sans-serif;
 }
 
-
-
 /*---------MENU SIDEN----------*/
 /*_template-knap_*/
 .buttonbox{ /*container der holder button 1*/
@@ -296,12 +294,16 @@ input[type=submit]
 
 .simplebuttonbox{
     padding: 50px 0 50px 40px;
+    background-color: #ffffff;
 }
 
 .simplebutton{
     left: 50%;
     font-size: 25px;
     color: #f15a44;
+    border: none;
+    background-color: #ffffff;
+    text-decoration: underline;
 }
 
 .vconfirm{
