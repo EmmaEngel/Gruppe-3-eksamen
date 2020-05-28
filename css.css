@@ -412,7 +412,7 @@ input[type=submit]
 
 .vqr{
     width: 500px;
-    margin-bottom: 70px;
+    
 }
 
 .qrtekst{
@@ -420,4 +420,12 @@ input[type=submit]
     font-size: 35px;
     color: #fff;
     line-height: 55px;
+}
+
+.qrtekstlille{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    line-height: 55px;
+    margin-bottom: 40px;
 }
