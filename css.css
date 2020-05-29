@@ -402,14 +402,18 @@ input[type=submit]
 
 .vbackground{
     background-color: #515864;
-    height: 1024px;
+    height: 100%;
     width: 100%;
     text-align: center;
+    
 }
 
 .vlogo{
     width: 500px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
+    display: block;
+    padding-left: 50%;
+    margin-left: -250px;
 }
 
 .vqr{
@@ -428,6 +432,7 @@ input[type=submit]
     text-transform: uppercase;
     font-size: 15px;
     color: #fff;
-    line-height: 55px;
-    margin-bottom: 40px;
+    line-height: 30px;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
